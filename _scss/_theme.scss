@@ -1,0 +1,239 @@
+// Core variables and mixins
+@import "custom-bootstrap/custom-variables";
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/glyphicons";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "custom-bootstrap/custom-buttons";
+
+// Components
+@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+@import "bootstrap/navs";
+@import "custom-bootstrap/custom-navbar";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "bootstrap/pager";
+@import "bootstrap/labels";
+@import "bootstrap/badges";
+@import "bootstrap/jumbotron";
+@import "bootstrap/thumbnails";
+@import "bootstrap/alerts";
+@import "bootstrap/progress-bars";
+@import "bootstrap/media";
+@import "custom-bootstrap/custom-list-group";
+@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+@import "bootstrap/close";
+
+// Components w/ JavaScript
+@import "bootstrap/modals";
+@import "bootstrap/tooltip";
+@import "bootstrap/popovers";
+@import "bootstrap/carousel";
+
+// Utility classes
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
+
+// My custom styles
+
+
+.home, .post, .template {
+    padding-top: 200px;
+    background-color: pink;
+}
+
+.pink {
+    background-color: pink;
+}
+
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 100%;
+}
+
+
+
+img {
+	width:100%;
+}
+
+
+// Templates
+
+// .template {
+//     padding-top: 200px;
+//     background-color: blue;
+// }
+
+section.top-nav {
+	background: $brand-white;
+	color:$brand-charcoal;
+	padding-top:40px;
+	padding-bottom: 40px;
+	@media (max-width: 767px) {
+		padding-bottom: 15px;
+	}
+	h1 {
+		font-size:24px;
+		line-height: 0;
+		margin-top: 10px;
+		float:left;
+		@media (max-width: 767px) {
+			font-size:20px;
+		}
+	}
+	.logo {
+		width:35px;
+		float:left;
+		margin-top: -10px;
+		margin-right: 10px;
+		@media (max-width: 767px) {
+			width:25px;
+			margin-top: -4px;
+		}
+	}
+}
+section.main-nav {
+	
+}
+
+section.global-announcement {
+	background: $brand-charcoal;
+	color:#ffffff;
+	text-align: center;
+	padding:80px 0;
+	img {
+		margin-top:20px;
+	}
+}
+
+
+section.announcement {
+	background: $brand-charcoal;
+	color:#ffffff;
+	text-align: center;
+	padding:40px 0 0 0;
+	img {
+		margin-top:20px;
+	}
+}
+
+section.categories {
+	background: $brand-shell;
+	text-align: center;
+	padding:20px 0;
+}
+
+section.filter {
+	background: $brand-shell;
+	padding:0;
+	margin:0;
+	.viewfilters {
+		padding:20px 0;
+	}
+}
+
+section.search {
+	background: $brand-shell;
+	padding:40px 0;
+}
+
+section.trending {
+	background: $brand-shell;
+	padding:60px 0 100px 0;
+	border-bottom:1px solid $brand-ash;
+}
+
+
+.product-info {
+	background: $brand-white;
+	border-radius: $border-radius-base;
+	padding:10px;
+	margin-top:20px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+img.product-profile {
+	
+}
+
+img.user-profile {
+	width:25px;
+}
+
+img.product-promotion {
+	padding-top:20px;
+	margin-bottom:0;
+}
+
+
+.product-item {
+	background: $brand-aqua;
+	color:#ffffff;
+	padding:20px 20px 250px 20px;
+	margin:10px 0;
+}
+
+.navbar {
+	margin-bottom:0;
+}
+@media (min-width: 768px) {
+	.navbar {
+		margin-bottom:0;
+	}
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.filter-btn {
+	@media (max-width: 768px) {
+		float: right;
+	}
+}
+
+.sm-padding-right {
+	margin-right:10px;
+}
+
+.search-sm {
+	@media (max-width: 768px) {
+		margin-bottom:20px;
+	}
+}
+
+
+
+
+
+
+
+
+
